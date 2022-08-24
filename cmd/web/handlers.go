@@ -15,8 +15,9 @@ func home(w http.ResponseWriter, r *http.Request) {
 	}
 
 	files := []string{
-		"ui/html/base.html",
-		"ui/html/home.page.html",
+		"./ui/html/base.html",
+		"./ui/html/home.page.html",
+		"./ui/html/footer.html",
 	}
 	// Use the template.ParseFiles() function to read the template file into a
 	// template set. If there's an error, we log the detailed error message and
